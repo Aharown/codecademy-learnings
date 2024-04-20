@@ -1,2 +1,2 @@
 # codecademy-learnings
-Documenting backend Codecademy projects
+Documenting frontend/backend Codecademy projects
