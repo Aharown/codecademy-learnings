@@ -1,0 +1,100 @@
+HTML FUNDAMENTALS
+
+WHAT IS WEB DEVELOPMENT?
+
+- Having web development skills allows you to take your big ideas — whether it’s a simple website, 
+a complex web application, or even a browser game — and build them on the web.
+
+- The four main languages that we need to learn include:
+
+HTML — structures website content
+CSS — applies styling to websites
+JavaScript — adds interactivity to websites
+SQL — allows your web application to store and retrieve data
+
+
+WHAT IS HTML?
+
+- HTML is the skeleton of all web pages. It provides structure to the content on a website, 
+including text, images, buttons, videos, and more.
+
+HTML is a practical place to start learning to code. You can build basic websites after learning just a little HTML, 
+with text, images, and videos. You can always open up your work-in-progress website with your browser and see what you’re building.
+
+HTML stands for hypertext markup language. In the next few exercises, 
+we will look at the HTML acronym word-by-word to unpack what HTML really means.
+
+
+HTML MARKUP
+
+The ML in HTML stands for markup language. Markup refers to a way of annotating text that is distinguishable from the text itself. 
+The same way that a teacher might “markup” a student essay by underlining topic sentences and circling spelling errors, HTML annotates the content within a web page.
+
+A teacher might use a red pen to make sure that their comments are easy to distinguish from the student’s own work. HTML separates content and annotation by using HTML tags, 
+which are denoted by angle brackets (also known as less-than and greater-than signs).
+
+
+HTML ELEMENTS 
+
+HTML tags are the “markup” for HTML. They are annotations that provide information about the type of content they contain. 
+Let’s take a close look at the syntax for how HTML tags surround content to create an HTML element.
+The diagram displays an HTML paragraph element. As we can see, the paragraph element is made up of one opening tag (<p>), 
+the content (“Hello World!” text), and a closing tag (</p>).
+
+Let’s quickly review each part of the element pictured:
+
+HTML element — a unit of content in an HTML document formed by HTML tags and the text or media it contains.
+Opening Tag — the element name used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.
+Content — The information (text or other elements) contained between the opening and closing tags of an HTML element.
+Closing tag — the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.
+
+<p>"Hello World!"</p>
+
+
+COMMON HTML tags
+
+Here are a few common tags that you can start getting familiar with:
+
+<h1>This is a heading, it emphasizes text.</h1>
+
+<p>This is a paragraph, it is the most common tag for larger chunks of text.</p>
+
+<a>This is an anchor tag, used to specify the text that is the "anchor" for a link.</a>
+
+<button>This is a button.</button>
+
+
+HYPERTEXT AND THE WWW
+
+The H and T in HTML stands for hypertext. Hypertext is text that is linked to other text. 
+What’s so hyper about hypertext? The prefix hyper indicates that the text expands beyond the traditional constraints of the written word. 
+Instead of reading documents from beginning to end, like you would read a book, someone going through hypertext can browse. 
+By clicking on links from one document to another, the user can navigate to whatever page they find the most interesting and carve their own unique path through the web.
+
+Many modern websites provide rich user experiences, with features like embedded videos, animations, and interactivity, 
+so it doesn’t necessarily feel like you are just navigating from one HTML page to the next. But despite all of the advances that have taken place with the growth of the web, 
+at its core the web is still just a collection of hyperlinked documents.
+
+
+ADDING HYPERLINKS
+
+An attribute in HTML provides additional information about an HTML element. It comes in a name and value pair with the structure name="value". 
+For example, you can specify the width of an HTML element with the attribute width="500".
+
+Links are created in HTML with something called the href attribute, which stands for hyperlink reference. 
+The href attribute allows us to specify the URL, or address on the web, that a link should take users to. See below for an example of the href attribute in action.
+
+When we set the href attribute on an anchor tag (abbreviated to <a>) we can specify both the text that should be rendered for the user (the text within the anchor tag)
+and the URL that the browser should navigate to.
+
+With this code, we’re assigning the value www.codecademy.com to the href attribute. When a user clicks on the text of this link (Learn to code!), they will be directed to www.codecademy.com.
+
+EXAMPLES OF HTML TAGS (href, paragraphs, headers) IN USE 
+
+<a href="www.codecademy.com">Learn to code!</a>
+
+<h3>Why You Should Choose Jetsetter Concierge Travel Planning</h3>
+      <p>With over <a href=/resume.html> 25 years of experience</a> in concierge, high-end travel planning, we'll provide you with the highest quality services. 
+      Every vacation is unique, custom, and tailored to your tastes.</p>
+
+
