@@ -1,0 +1,76 @@
+JAVASCRIPT FUNDAMENTALS
+
+WHAT IS JAVASCRIPT (JS)
+
+Any website that provides more than just static information probably utilizes JavaScript in some way. 
+Here are some familiar examples of website features most often built with JavaScript:
+
+popup ads
+animated graphics (2D or 3D)
+interactive audio and video
+maps and other features access the user’s geographic location
+and much more!
+
+One of the defining features of JavaScript is its ability to respond to browser events. 
+These events happen in real time and can be triggered by a wide variety of user interactions, including:
+
+the user clicking on a button
+the user pressing enter on their keyboard
+a video file finishing loading
+the user re-sizing their window
+the user hovering over text on the webpage
+
+
+JAVASCRIPT FUNCTIONS
+
+In the last exercise, we started to think about two key building blocks of JavaScript: 
+functions and events. 
+
+Let’s review:
+
+Functions: allow us to write a chunk of code once that can be reused over and over.
+Events: allow JavaScript to respond to user behaviors, like the user hovering their mouse over an HTML element or resizing their window.
+
+Events and functions combine to give JavaScript the ability to create interactive experiences. When an event is fired, a function is executed. 
+This pattern is used again and again in web development to create interactive websites.
+
+JS CODE:
+
+<body>
+      <button onclick="changeColor()">Repaint!</button>
+  </body>
+  
+      <script>
+        function getRandomColor(){
+          let letters = '0123456789ABCDEF';
+          let color = '#';
+          for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+          }
+          return color;
+        }
+        function changeColor(){
+          let newColor = getRandomColor();
+          document.body.style.backgroundColor = newColor;
+        }
+    </script>
+
+The JavaScript code is between the <script> tags. 
+This tag alerts the browser that the page contains JavaScript and separates the JavaScript code from the HTML.
+
+The JavaScript function changeColor() chooses a color from a list of colors.
+
+How does that happen?
+
+First, the getRandomColor() function generates a random series of numbers and letters to create a new hexadecimal color code.
+It then saves the new color under the name newColor.
+
+let newColor = getRandomColor();
+
+On the next line, the document keyword accesses the page’s background color and sets it equal to the new color.
+
+document.body.style.backgroundColor = newColor;
+
+
+
+
