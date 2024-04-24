@@ -1,0 +1,34 @@
+CSS FUNDAMENTALS
+
+
+WHAT IS CSS?
+
+CSS is the language that provides style to the content of an HTML page. This includes colors, fonts, positioning, layout, and more!
+Why do we need a separate language for content and presentation? This is an example of the computer science principle separation of concerns. 
+
+Large codebases are kept maintainable when each section has clearly differentiated problems that it is trying to solve.
+Since the styling rules are described separately from the content itself, if Alejandra adds more paragraphs, images, or other forms of content, 
+she can expect them to be styled the same way as her existing content. This will save Alejandra time in the long run, especially as her website gets more and more complex.
+
+
+APPLYING CSS
+
+We can apply a CSS file (style.css) to a HTML file using the HTML link element. A HTML link tag is often used to create a connection
+between an HTM file and the CSS file and tells the browser to apply the CSS styles to the HTML.
+
+EXAMPLE of HTML LINK ELEMENT USED TO APPLY CSS FILE TO HTML FILE:
+
+<link rel="stylesheet" href="style.css">
+
+body{
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding:0px;
+}
+.header{
+    background-image: url(https://content.codecademy.com/programs/code-foundations-path/airplane.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
