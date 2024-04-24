@@ -1,0 +1,34 @@
+SQL FUNDAMENTALS
+
+WHAT IS SQL?
+
+In order to build out features like storing, retrieving and modifying usernames, shipping addresses etc. in a website we need SQL, 
+which stands for structured query language. 
+
+SQL is a language that Data Analysts and Data Scientists use to query and analyze data.
+SQL stores information in tables, which is simply a collection of information organized into rows and columns. 
+If you’ve worked with a spreadsheet like Microsoft Excel or Google Sheets, you might be familiar with working with tables. 
+To get the information, you would write a query, or a program that would retrieve data from the table.
+
+Here’s an example of a query that would select all of the columns —the * keyword is a shorthand for “all”— from the page_views table:
+
+SELECT * FROM page_views;
+
+Web developers and software engineers also use SQL to build apps that can save, modify, and access data. There’s even a growing field of data engineering, 
+which is a specialized subset of software engineers who ensure that the applications they are working with accurately and efficiently record all of the required data.
+
+
+OVERVIEW OF WEB DEV FUNDAMENTALS
+
+We can build out websites and apps with the four following languages:
+
+HTML — structures website content
+CSS — applies styling to websites
+JavaScript — adds interactivity to websites
+SQL — allows your web application to store and retrieve data
+
+While these languages are each essential to web development, many of them also have applications in other fields. 
+For example, JavaScript was initially just a language for interacting with HTML, but JavaScript has expanded to be a general-purpose programming language that can be run outside of the browser. 
+You can now build web applications, browser games, desktop applications, and even VR/AR experiences in JavaScript.
+
+
