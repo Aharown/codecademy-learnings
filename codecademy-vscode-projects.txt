@@ -1,0 +1,98 @@
+BUILDING PROJECTS WITH VSCODE
+
+
+DEVELOPMENT FOLDERS
+
+Before using your text editor, it’s important to establish an organized file system. As the number and size of your projects grow, 
+it becomes increasingly important to know where to save new projects and find old projects.
+Most developers store their projects in an easy-to-find directory, (what you might be used to calling a “folder”). 
+Here at Codecademy, we recommend naming this folder as projects. It will store all of your coding projects. Whenever you create a new project, 
+no matter how small, you should always make a new folder inside your projects directory. You will find that single-file projects can quickly turn into larger, multi-folder projects.
+
+
+MAKE A DEVELPMENT FOLDER 
+
+Navigate to a folder using your file manager or the terminal. Make sure it is a folder you visit regularly and will remember. Create a new folder called projects.
+
+macOS users: This may be your user account or Home folder.
+Inside the projects directory, create a new folder called HelloWorld. Everything you add to this folder will be part of your HelloWorld project.
+
+
+For this step, VS Code will need to be downloaded. Then, it can either be launched with the desktop icon or by opening a terminal and doing the following:
+
+Change into the projects directory with the cd command:
+cd projects
+
+Open VS Code from the projects directory with the following command:
+code .
+
+Note: Depending on the operating system, there may be some extra steps needed to launch VS Code from the terminal.
+
+
+OPEN DEVELOPMENT FOLDER
+
+Click on the “Explorer” icon on the left-hand menu and click on the “Open Folder” button and choose your development folder. This will launch your file manager.
+
+Navigate to the HelloWorld/ folder and select Open. The folder will open in VS Code’s side pane. At this point, there should not be any contents in the folder. 
+We’ll add a file in the next step.
+
+
+ADD A FILE 
+
+Before you learn how to add files to a project folder, it is important to understand the purpose of file formats. 
+File formats include the file extension, or the suffix of a filename (the last 3 - 4 characters in a filename, preceded by a period .), and describe the type of content the file contains. 
+For example, the HTML file extension is .html, and it tells the browser (and other applications) to interpret the contents of the file as an HTML document. 
+Once VS Code loads a project folder, you can add files. The steps below describe how to add files. 
+
+In VS Code’s “Explorer” pane, click on your development folder’s name. You’ll see four icons appear to the right of the folder name. Click the “New File” icon. 
+Type the new file’s name with its appropriate file extension ( e.g., .html, .css, and .csv). 
+It is critical that you include the correct file path, so programs like linters know how to interpret its contents. Press Enter when done.
+
+
+BEGIN CODING 
+
+Copy and paste the following boilerplate HTML code:
+
+<html> 
+  <head>
+    <title>Hello World</title> 
+  </head>
+
+  <body> 
+    <h1>Hello World</h1> 
+  </body>
+</html>
+
+To decrease the chances of losing unsaved work, save your file often with the Auto Save feature and track changes with a version control system, like Git, if you know how to use one. (To turn Auto Save on, click on “File”, then “Auto Save”. When it’s on, you’ll see a checkmark next to “Auto Save”.)
+
+File Formats and Syntax Highlighting
+
+Syntax is the set of rules that tell us how to create correctly written code. VS Code and other text editors are able to interpret file formats and provide language-specific syntax highlighting. Syntax highlighting is a tool for making code easier to read. 
+Take a look at your index.html file. The text and tags are different colors. This is how VS Code highlights .html syntax. With each new language you learn, VS Code will highlight text in a way that makes your code easy to read. 
+This may be different than other text editors and also different than the way your code is highlighted on Codecademy.
+
+Optional: Change the color scheme
+
+Although VS Code comes with default syntax highlighting, you may want to change the colors used. Good color themes will make reading all those lines of code easy on your eyes. (Try out low contrast, dark themes like “Solarized Dark” or “Dracula Dark.”)
+
+To do this, select Color Theme from the Welcome page when you first open VS Code, or click on Code in the menu bar at the top of your desktop window, then click on Preferences, followed by Color Theme. You can also search for color themes to install using the Extensions menu.
+
+
+VIEW HTML FILE FROM BROWSER 
+
+At this point, your file is ready to be viewed in a web browser. The following steps should be taken outside of VS Code:
+
+Navigate to the index.html file in your Hello World folder through your file manager or terminal.
+
+Double-click or open index.html. The page should open in your default web browser. Take a second to marvel at your handiwork — you made your first project with VS Code.
+
+
+VS CODE EXTRA FEATURES
+
+If you already feel comfortable with the previous steps, explore the following features to further customize your development environment. You don’t need to use these suggestions to complete the projects on Codecademy but they can help make you more efficient when writing code. They are part of are what makes VS Code such a useful editor!
+
+Debugging code in the editor: That’s right, you can run and test code from the editor!
+
+Version control: You don’t need to switch to the terminal on your computer to track changes with Git.
+
+Integrated terminal: You can run command line commands from your editor with VS Code.
